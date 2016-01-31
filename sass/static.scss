@@ -1,0 +1,97 @@
+@import "breakpoints";
+@import "colors";
+@import "fonts";
+@import "global";
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 120px;
+}
+
+#header__logo {
+  margin-top: 20px;
+}
+
+.page-title {
+    font-size: 2.8rem;
+    margin-top: 3.4rem;
+    margin-bottom: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+}
+
+table, ul,p {
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 48px;
+  ul {
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 12px;
+  }
+}
+
+.footer-link {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+#footer__logo {
+  width: 64px;
+  margin-bottom: 48px;
+}
+
+small {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+///////////
+/// FAQ ///
+///////////
+
+.faq-question {
+  margin-top: 6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+.faq-answer {
+  font-size: 1.6rem;
+}
+
+//////////////////
+/// CONTACT US ///
+//////////////////
+
+.contact-us-table {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  td {
+    padding: 6px;
+  }
+}
+
+.introduction-text {
+  text-align: center;
+}

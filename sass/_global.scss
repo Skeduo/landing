@@ -1,0 +1,68 @@
+html {
+	font-family: $default-font-family;
+	color: $white;
+	font-size: 10px;
+}
+
+body {
+	background-image: url(./assets/images/page-background.jpg);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+#header__logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	@include responsive(xs) {
+		display: none;
+	};
+	@include responsive(mobile) {
+		display: none;
+	};
+	@include responsive(tablet) {
+		height: 76px;
+	};
+	@include responsive(desktop) {
+		height: 76px;
+	};
+	@include responsive(large) {
+		height: 76px;
+	};
+	@include responsive(xl) {
+		height: 114px;
+	    margin-top: 10px;
+	};
+}
+
+::selection {
+	background-color: $gold;
+	color: $white;
+}
+
+::-moz-selection {
+	background-color: $gold;
+	color: $white;
+}
+
+.appName {
+  color: $white;
+  font-weight: 700;
+  text-transform: uppercase;
+}

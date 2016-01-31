@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url("assets/fonts/quattrocentosans-regular-webfont.eot");
+  src: url("assets/fonts/quattrocentosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/quattrocentosans-regular-webfont.woff") format("woff"), url("assets/fonts/quattrocentosans-regular-webfont.ttf") format("truetype"), url("assets/fonts/quattrocentosans-regular-webfont.svg#webfont") format("svg");
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-weight: normal;
+  font-style: italic;
+  src: url("assets/fonts/quattrocentosans-italic-webfont.eot");
+  src: url("assets/fonts/quattrocentosans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/quattrocentosans-italic-webfont.woff") format("woff"), url("assets/fonts/quattrocentosans-italic-webfont.ttf") format("truetype"), url("assets/fonts/quattrocentosans-italic-webfont.svg#webfont") format("svg");
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url("assets/fonts/quattrocentosans-bold-webfont.eot");
+  src: url("assets/fonts/quattrocentosans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/quattrocentosans-bold-webfont.woff") format("woff"), url("assets/fonts/quattrocentosans-bold-webfont.ttf") format("truetype"), url("assets/fonts/quattrocentosans-bold-webfont.svg#webfont") format("svg");
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-weight: bold;
+  font-style: italic;
+  src: url("assets/fonts/quattrocentosans-bolditalic-webfont.eot");
+  src: url("assets/fonts/quattrocentosans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/quattrocentosans-bolditalic-webfont.woff") format("woff"), url("assets/fonts/quattrocentosans-bolditalic-webfont.ttf") format("truetype"), url("assets/fonts/quattrocentosans-bolditalic-webfont.svg#webfont") format("svg");
+}
+/* line 1, sass/_global.scss */
+html {
+  font-family: "Quattrocento Sans", Georgia, serif;
+  color: #E7DFE4;
+  font-size: 10px;
+}
+
+/* line 7, sass/_global.scss */
+body {
+  background-image: url(./assets/images/page-background.jpg);
+}
+
+/* line 11, sass/_global.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* line 20, sass/_global.scss */
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 29, sass/_global.scss */
+#header__logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (max-width: 479px) {
+  /* line 29, sass/_global.scss */
+  #header__logo {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 29, sass/_global.scss */
+  #header__logo {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 29, sass/_global.scss */
+  #header__logo {
+    height: 76px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* line 29, sass/_global.scss */
+  #header__logo {
+    height: 76px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  /* line 29, sass/_global.scss */
+  #header__logo {
+    height: 76px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  /* line 29, sass/_global.scss */
+  #header__logo {
+    height: 114px;
+    margin-top: 10px;
+  }
+}
+
+/* line 54, sass/_global.scss */
+::selection {
+  background-color: #CDB399;
+  color: #E7DFE4;
+}
+
+/* line 59, sass/_global.scss */
+::-moz-selection {
+  background-color: #CDB399;
+  color: #E7DFE4;
+}
+
+/* line 64, sass/_global.scss */
+.appName {
+  color: #E7DFE4;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 6, sass/static.scss */
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 120px;
+}
+
+/* line 15, sass/static.scss */
+#header__logo {
+  margin-top: 20px;
+}
+
+/* line 19, sass/static.scss */
+.page-title {
+  font-size: 2.8rem;
+  margin-top: 3.4rem;
+  margin-bottom: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/* line 27, sass/static.scss */
+ul {
+  display: block;
+  list-style-type: disc;
+}
+
+/* line 32, sass/static.scss */
+table, ul, p {
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 2rem;
+}
+
+/* line 39, sass/static.scss */
+footer {
+  text-align: center;
+  padding: 48px;
+}
+/* line 42, sass/static.scss */
+footer ul {
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+/* line 49, sass/static.scss */
+.footer-link {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+/* line 56, sass/static.scss */
+#footer__logo {
+  width: 64px;
+  margin-bottom: 48px;
+}
+
+/* line 61, sass/static.scss */
+small {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 70, sass/static.scss */
+.faq-question {
+  margin-top: 6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+/* line 78, sass/static.scss */
+.faq-answer {
+  font-size: 1.6rem;
+}
+
+/* line 86, sass/static.scss */
+.contact-us-table {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 90, sass/static.scss */
+.contact-us-table td {
+  padding: 6px;
+}
+
+/* line 95, sass/static.scss */
+.introduction-text {
+  text-align: center;
+}

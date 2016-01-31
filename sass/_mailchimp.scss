@@ -1,0 +1,41 @@
+label[for="mce-EMAIL"] {
+	display: none;
+}
+
+#mce-EMAIL,
+#mc-embedded-subscribe {
+    border: none;
+    outline: none;
+	@include transition-property(all);
+	@include transition-duration(300ms);
+	@include transition-timing-function(ease);
+    &:hover,
+    &:focus {
+    	background-color: $gold90;
+    }
+}
+
+#mce-EMAIL {
+	width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    background-color: $gold40;
+    color: $purple;
+    font-family: $default-font-family;
+}
+
+#mc-embedded-subscribe {
+    width: 100%;
+    margin-top: 12px;
+    background-color: $gold40;
+    padding: 6px;
+    font-family: $default-font-family;
+    cursor: pointer;
+    color: $white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+    line-height: 15px;
+    text-align: center;
+}
